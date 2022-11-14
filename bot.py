@@ -27,7 +27,7 @@ async def start(event):
             buttons=(
                    
 		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/CrazyTagBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/Crazysup')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/Crazy_Support')],
                       [Button.url('Rəsmi Kanal ✅', 'https://t.me/crazy_resmi')],
                       [Button.url('Crazy MMC 🔮', 'https://t.me/crazymmc')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/Dakanca_Hozu')] 
@@ -40,7 +40,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/CrazyTagBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/Crazysup')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/Crazy_Support')],
                       [Button.url('Rəsmi Kanal ✅', 'https://t.me/crazy_resmi')],
                       [Button.url('Crazy Mmc 🔮', 'https://t.me/crazymmc')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/Dakanca_Hozu')],
@@ -53,7 +53,7 @@ async def help(event):
   helptext = "Premium Söhbət Qrupları ⚡\n\nƏlaqə - @Dakanca_Hozu"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('༒︎ 𝐂𝚁𝐀𝚉𝐘 | 𝐓𝙴𝐀𝙼 𓆙 ', 'https://t.me/CrazyTeam')],
+                      [Button.url('༒︎ 𝐂𝚁𝐀𝚉𝐘 | 𝐓𝙴𝐀𝙼 𓆙 ', 'https://t.me/CrazyTeamss')],
                     ),
                     link_preview=False
                    )
