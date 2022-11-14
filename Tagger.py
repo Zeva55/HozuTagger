@@ -23,7 +23,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**👋 **Salam** \n\n**🔮 Mən sizin qrupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyalı botam**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin**",
+  await event.reply("**👋 **Salam** \n\n**🔮 Mən sizin qrupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyalı botam**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin",
             buttons=(
                    
 		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/CrazyTagBot?startgroup=a')],
