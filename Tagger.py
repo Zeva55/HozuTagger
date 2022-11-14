@@ -23,7 +23,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**👋 **Salam** \n\n**🔮 Mən sizin qurupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyanal botam**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün**\n\n/help əmrindən istifadə edin**",
+  await event.reply("**👋 **Salam** \n\n**🔮 Mən sizin qrupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyalı botam**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün /help əmrindən istifadə edin**",
             buttons=(
                    
 		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/CrazyTagBot?startgroup=a')],
@@ -36,7 +36,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**@CrazyTagBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları tag edər\n**/cancel - Tagı dayandırar**\n**/tag <səbəb> - 5-li tag edər**\n**/etag <səbəb> - Emoji ilə tag edər**\n**/mtag <səbəb> - mafia rolları ilə tag edər\n**/tektag <səbəb> - İstifadəçiləri tək-tək tag edər\n**/admins <səbəb> - Yönəticiləri tək-tək tag edər\n**/btag <səbəb> - Bayrağlarla tag edər**\n**/stag <səbəb> - Şəhərlərimizin adları ilə tag edər**"
+  helptext = "**@CrazyTagBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları tag edər**\n**/cancel - Tagı dayandırar**\n**/tag <səbəb> - 5-li tag edər**\n**/etag <səbəb> - Emoji ilə tag edər**\n**/mtag <səbəb> - mafia rolları ilə tag edər**\n**/tektag <səbəb> - İstifadəçiləri tək-tək tag edər**\n**/admins <səbəb> - Yönəticiləri tək-tək tag edər**\n**/btag <səbəb> - Bayrağlarla tag edər**\n**/stag <səbəb> - Şəhərlərimizin adları ilə tag edər**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/CrazyTagBot?startgroup=a')],
@@ -113,7 +113,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(sehidler)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -183,7 +183,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(seherler)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -251,7 +251,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(mafia)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -319,7 +319,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(bayrag)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -388,7 +388,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(emoji)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -436,7 +436,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"👥 - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
@@ -454,7 +454,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"👥 - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -501,7 +501,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"**👤 - [{usr.first_name}](tg://user?id={usr.id}) \n**"
       if event.chat_id not in tekli_calisan:
-        await event.respond("**Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu ✅**")
+        await event.respond("**Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -519,7 +519,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"👤 - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in tekli_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu ✅**")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Burda sizin reklamınız ola bilər  @Dakanca_Hozu**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
