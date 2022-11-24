@@ -3,15 +3,15 @@
   "logo":"https://te.legra.ph/file/9297759dad7bac69eee9f.jpg",
   "description": "Rahid Tag Pulsuz şəkildə qrupunuzda hərkəsi tag edə bilər.",
   "env": {
-    "TOKEN": {
+    "TOKEN":5734659492:AAGASMrVeSjMOJhXcaInfR7m5ZQCSEnB3dU {
       "description": "@botfather botdan ala bilərsən (Zəruri)",
       "value": ""
     },
-    "APP_ID": {
+    "APP_ID":16421462 {
       "description": " my.telegram.org saytdan ala bilərsən (Zəruri)",
       "value": ""
     },
-    "API_HASH": {
+    "API_HASH":cc464d82989c88a392f59133591895a2 {
       "description": "my.telegram.org saytdan ala bilərsən (Zəruri)",
       "value": ""
     }
