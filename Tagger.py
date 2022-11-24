@@ -42,7 +42,7 @@ async def help(event):
                       [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/Dizzytagbot?startgroup=a')],
                       [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/DizzyBotsChat')],
                       [Button.url('Rəsmi Kanal ✅', 'https://t.me/DizzyBots')],
-                      [Button.url('Crazy Mmc 🔮', 'https://t.me/BigTelegramTribe')],
+                      [Button.url('Sohbet Grupu 🔮', 'https://t.me/BigTelegramTribe')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ozudugagas')],
                     ),
                     link_preview=False
