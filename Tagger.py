@@ -27,7 +27,7 @@ async def start(event):
             buttons=(
                    
 		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/TigressTaggerBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotschat')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotchat')],
                       [Button.url('Rəsmi Kanal ✅', 'https://t.me/TigressBots')],
                       [Button.url('Qəşəng kanal 🔮', 'https://t.me/TigressBots')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ThisisYusif')] 
@@ -40,7 +40,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/TigressTaggerBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotschat')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotchat')],
                       [Button.url('Rəsmi Kanal ✅', 'https://t.me/TigressBots')],
                       [Button.url('Qəşəng Kanal 🔮', 'https://t.me/TigressBots')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/Thisisyusif')],
