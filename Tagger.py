@@ -36,7 +36,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = " @TigressTaggerBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları ilə tag edər**\n**/tag - 5-li tag edər**\n**/etag - Emoji ilə tag edər**\n**/mtag - Mafia rolları ilə tag edər**\n**/tektag - İstifadəçiləri tək-tək tag edər**\n**/admins - Adminləri tək-tək tag edər**\n**/btag - Bayrağlarla tag edər**\n**/stag - Şəhərlərimizin adları ilə tag edər**\n**/cancel - Tag prosesi dayandırar**"
+  helptext = " @DizzyTaggerBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları ilə tag edər**\n**/tag - 5-li tag edər**\n**/etag - Emoji ilə tag edər**\n**/mtag - Mafia rolları ilə tag edər**\n**/tektag - İstifadəçiləri tək-tək tag edər**\n**/admins - Adminləri tək-tək tag edər**\n**/btag - Bayrağlarla tag edər**\n**/stag - Şəhərlərimizin adları ilə tag edər**\n**/cancel - Tag prosesi dayandırar**"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/DizzyTaggerBot?startgroup=a')],
