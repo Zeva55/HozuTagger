@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = 11964494512
+api_hash = 8ebf83ab11964494512a21f6a83fd639
+bot_token = 6128579249:AAHjRFXEjddVAWuqfexUISBR58Hb_nL3xjk
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 
@@ -26,23 +26,23 @@ async def start(event):
   await event.reply("**👋 **Salam** \n\n**🔮 Mən sizin qurupunuzda istifadəçiləri çağırmağınız üçün yaradılmış çox funksiyanal botam**\n\n**✅ Botun istifadə qaydasını öyrənmək üçün**\n\n/help əmrindən istifadə edin**",
             buttons=(
                    
-		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/TigressTaggerBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotchat')],
-                      [Button.url('Rəsmi Kanal ✅', 'https://t.me/TigressBots')],
-                      [Button.url('Qəşəng kanal 🔮', 'https://t.me/TigressBots')],
+		      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/DizzyTaggerBot?startgroup=a')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/DizzyBotschat')],
+                      [Button.url('Rəsmi Kanal ✅', 'https://t.me/DizzyBots')],
+                      [Button.url('Qəşəng qrup 🔮', 'https://t.me/BakuAzSohbet')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ThisisYusif')] 
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**@FrankTagBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları tag edər\n**/cancel - Tagı dayandırar**\n**/tag <səbəb> - 5-li tag edər**\n**/etag <səbəb> - Emoji ilə tag edər**\n**/mtag <səbəb> - mafia rolları ilə tag edər\n**/tektag <səbəb> - İstifadəçiləri tək-tək tag edər\n**/admins <səbəb> - Yönəticiləri tək-tək tag edər\n**/btag <səbəb> - Bayrağlarla tag edər**\n**/stag <səbəb> - Şəhərlərimizin adları ilə tag edər**"
+  helptext = "**@DizzyTaggerBot Butonları 🤖**\n\n**/sehidler - Şəhidlərimizin adları tag edər\n**/cancel - Tagı dayandırar**\n**/tag <səbəb> - 5-li tag edər**\n**/etag <səbəb> - Emoji ilə tag edər**\n**/mtag <səbəb> - mafia rolları ilə tag edər\n**/tektag <səbəb> - İstifadəçiləri tək-tək tag edər\n**/admins <səbəb> - Yönəticiləri tək-tək tag edər\n**/btag <səbəb> - Bayrağlarla tag edər**\n**/stag <səbəb> - Şəhərlərimizin adları ilə tag edər**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/TigressTaggerBot?startgroup=a')],
-                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/TigressBotchat')],
-                      [Button.url('Rəsmi Kanal ✅', 'https://t.me/TigressBots')],
-                      [Button.url('Qəşəng Kanal 🔮', 'https://t.me/TigressBots')],
+                      [Button.url('➕ Qrupa Əlavə Et ➕', 'http://t.me/DizzyTaggerBot?startgroup=a')],
+                      [Button.url('Dəstək Qrupu 👨‍💻', 'https://t.me/DizzyBotsChat')],
+                      [Button.url('Rəsmi Kanal ✅', 'https://t.me/DizzyBots')],
+                      [Button.url('Qəşəng qrup 🔮', 'https://t.me/BakuAzSohbet')],
 		      [Button.url('Owner 👨🏻‍💻', 'https://t.me/ThisisYusif')],
                     ),
                     link_preview=False
@@ -53,7 +53,7 @@ async def help(event):
   helptext = "Premium Söhbət Qrupları ⚡\n\nƏlaqə - @ThisisYusif"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Qəşəng Kanal 🔮 ', 'https://t.me/TigressBots')],
+                      [Button.url('Qəşəng qrup 🔮 ', 'https://t.me/BakuAzSohbet')],
                     ),
                     link_preview=False
                    )
