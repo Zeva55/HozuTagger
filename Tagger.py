@@ -10,7 +10,7 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(name)
 
-API_ID = int(os.environ.get("API_ID", "11964494512"))
+API_ID = int(os.environ.get("API_ID", "13477761"))
 API_HASH = os.environ.get("API_HASH", "8ebf83ab11964494512a21f6a83fd639")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "6128579249:AAG7ncODSU9NOxH4xNR4T3yKGCGhi1qCQno")
 
